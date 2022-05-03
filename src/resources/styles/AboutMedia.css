@@ -1,0 +1,25 @@
+/* ExtraSmall Display */
+@media (max-width: 720px) {
+  .cardImg {
+    width: 300px;
+  }
+
+  .avatar {
+    width: 250px;
+  }
+  
+  .aboutTitle{
+    font-size: 20px;
+  }
+}
+
+/* ExtraExtraSmall Display */
+@media (max-width: 400px) {
+  .avatar {
+    width: 200px;
+  }
+  
+  .aboutTitle{
+    font-size: 16px;
+  }
+}

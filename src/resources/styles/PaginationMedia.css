@@ -1,0 +1,13 @@
+/* ExtraSmall Display */
+@media (max-width: 1140px) {
+    .pagination li {
+        color: black;
+        float: left;
+        padding: 0px 5px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+        font-size: 14px;
+    }
+  }

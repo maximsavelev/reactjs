@@ -1,0 +1,128 @@
+.image{
+  border-radius: 40px;
+  width: 600px;
+  height: 100%;
+}
+
+.movie{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100%;
+}
+.block{
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 100%;
+  margin: 20px;
+}
+
+.elem{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  font-size: 24px;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  margin-left : 30px;
+}
+.date{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.filmFind {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 5px;
+  width: 860px;
+  height: 45px;
+}
+
+.find {
+  height: 45px;
+  width: 540px;
+
+}
+
+.input {
+  padding-left: 15px;
+  height: 45px;
+  width: 480px;
+
+  background-color: #ffffff;
+  border: 1px solid #0d011a;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.dispFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonFind {
+  height: 45px;
+  width: 45px;
+  background-color: #ffffff;
+  border: 1px solid #0d011a;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.panel{
+  margin: 20px 0;
+  justify-content: center;
+  display: flex;
+}
+
+.sort{
+  margin-left: 15px;
+  height: 45px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #0d011a;
+}
+
+.finder {
+  height: 50px;
+  width: 50px;
+}
+
+.select {
+  margin-left: 15px;
+  height: 45px;
+  width: 100px;
+  background-color: #ffffff;
+  border: 1px solid #0d011a;
+  border-radius: 8px;
+}
+
+.dispFlex{
+  margin-top: 15px;
+  display: flex;
+}
+
+.post {
+  margin-left: 30px;
+}
+
+.imgNew {
+  border-radius: 3px;
+}
+
+.findBoard{
+  display: flex;
+}

@@ -1,0 +1,45 @@
+.similarWrapper {
+    margin-top: 10px;
+    display: flex;
+}
+
+.preview{
+	transition: background-color 0.2s ease-in;
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+
+
+
+.buttonSim {
+	background-color: #988d8d;
+	border: 3px solid;
+    margin-top: 30px;
+    padding: 8px 40px;
+    display: inline-block;
+	line-height: 1.5;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: 700;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in;
+    border-radius: 20px;
+	cursor: pointer;
+    width: 300px;
+}
+
+.buttonSim:hover {
+	background-color: #3f3f41;
+}
+
+.buttonSim:active {
+	background-color: #5a95be;
+}
+
+.buttonSim:focus {
+	outline: none;
+	border: 3px solid #b0b0bb;
+	box-shadow: 0px 0px 10px 0 #6e6565;
+}

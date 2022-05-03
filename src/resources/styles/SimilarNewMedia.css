@@ -1,0 +1,32 @@
+  /* Small Display */
+@media (max-width: 720px) {
+  .similarWrapper{
+    width: 500px;
+  }
+}
+
+/* ExtraExtra Display */
+@media (max-width: 540px) {
+  .similarWrapper {
+    width: 300px;
+  }
+}
+
+/* ExtraExtra Display */
+@media (max-width: 371px) {
+  .similarWrapper {
+    width: 200px;
+  }
+}
+  
+  
+  /* ExtraExtra Display
+  @media (max-width: 371px) {
+    .buttonSim {
+        font-size: 15px;
+
+        padding: 8px 16px;
+        
+        width: 250px;
+    }
+  } */

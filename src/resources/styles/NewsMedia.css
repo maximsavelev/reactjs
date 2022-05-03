@@ -1,0 +1,110 @@
+/* Large Display */
+@media (max-width: 1250px) {
+  .input {
+    width: 300px;
+  }
+
+  .block {
+    width: 900px;
+  }
+
+  .image {
+    width: 300px;
+  }
+}
+
+/* Medium Display */
+@media (max-width: 960px) {
+  .input {
+    width: 140px;
+  }
+
+  .inputStyle {
+    font-size: 13px;
+  }
+
+  .select {
+    width: 140px;
+  }
+
+  .sort {
+    width: 200px;
+  }
+
+  .block {
+    width: 650px;
+  }
+
+  .image {
+    width: 250px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+}
+
+/* Small Display */
+@media (max-width: 720px) {
+  .panel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .select {
+    width: 210px;
+
+    margin: 10px 0;
+  }
+
+  .sort {
+    margin-left: 0;
+    width: 210px;
+  }
+
+  .block {
+    width: 450px;
+  }
+
+  .image {
+    width: 200px;
+  }
+}
+
+/* ExtraSmall Display */
+@media (max-width: 520px) {
+  .block {
+    width: 350px;
+  }
+
+  .image {
+    width: 150px;
+  }
+
+  .date {
+    font-size: 7px;
+  }
+}
+
+/* ExtraExtraSmall Display */
+@media (max-width: 321px) {
+  .block {
+    width: 250px;
+  }
+
+  .image {
+    width: 100px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .date {
+    font-size: 7px;
+  }
+}
