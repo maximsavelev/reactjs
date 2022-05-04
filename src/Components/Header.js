@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../resources/styles/Header.css";
 import "../resources/styles/HeaderMedia.css";
-
+import logo from '../resources/img/logo.jpg'
 import { NavLink } from "react-router-dom";
 
 class Header extends Component {
@@ -12,8 +12,8 @@ class Header extends Component {
           <div className="contentContainer">
             <div className="logo">
               <img
-                src="https://yt3.ggpht.com/ytc/AKedOLSKgJpc3wdRISAazrkjDnj0GdUGCt9NcWuaig-M=s900-c-k-c0x00ffffff-no-rj"
-                alt=""
+                src={logo}
+                alt="logo"
                 className="logoImg"
               />
               <p className="logoText">Space news</p>

@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import News from "./News";
 import "../resources/styles/News.css";
-import { useParams } from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import Pagination from "./Pagination";
 
 function NewsCatalog() {
+  const navigate = useNavigate();
+    let currentUrlParams = new URLSearchParams(window.location.search);
   let { pageNumber } = useParams();
   const [news, setNews] = useState([]);
   const [keyWord, setKeyWord] = useState("");
@@ -55,7 +57,9 @@ function NewsCatalog() {
         .then((res) => {
           setNews(res.data);
         });
+
     }
+
   };
 
   const setSearch = () => {
@@ -78,6 +82,7 @@ function NewsCatalog() {
       .then((res) => {
         setTotalCount(res.data);
       });
+
   };
 
   return (
@@ -100,6 +105,7 @@ function NewsCatalog() {
             type="image"
             src="https://iconape.com/wp-content/png_logo_vector/search-3.png"
             onClick={() => {
+                navigate('/news/1');
               setMode("search");
               setSearch();
             }}
